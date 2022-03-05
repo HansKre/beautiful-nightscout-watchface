@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/Users/hans/git/BeautifulNightscoutWatchface/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BackgroundRequest.mc" id="1" lineNum="6" parent="globals/RequestBackground" pc="268435456" symbol="initialize"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BackgroundRequest.mc" id="1" lineNum="7" parent="globals/RequestBackground" pc="268435460" symbol="initialize"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BackgroundRequest.mc" id="2" lineNum="10" parent="globals/RequestBackground" pc="268435483" symbol="onTemporalEvent"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BackgroundRequest.mc" id="2" lineNum="11" parent="globals/RequestBackground" pc="268435487" symbol="onTemporalEvent"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BackgroundRequest.mc" id="3" lineNum="4" parent="globals/RequestBackground" pc="268437691" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BackgroundRequest.mc" id="3" lineNum="4" parent="globals/RequestBackground" pc="268437691" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceBackground.mc" id="5" lineNum="8" parent="globals/Background" pc="268437710" symbol="initialize"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceBackground.mc" id="5" lineNum="9" parent="globals/Background" pc="268437714" symbol="initialize"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceBackground.mc" id="5" lineNum="13" parent="globals/Background" pc="268437735" symbol="initialize"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceBackground.mc" id="6" lineNum="16" parent="globals/Background" pc="268437756" symbol="draw"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceBackground.mc" id="6" lineNum="18" parent="globals/Background" pc="268437760" symbol="draw"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceBackground.mc" id="6" lineNum="19" parent="globals/Background" pc="268437809" symbol="draw"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceBackground.mc" id="7" lineNum="6" parent="globals/Background" pc="268438806" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceBackground.mc" id="7" lineNum="6" parent="globals/Background" pc="268438806" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="9" lineNum="12" parent="globals/State/Controller" pc="268435506" symbol="initState"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="9" lineNum="13" parent="globals/State/Controller" pc="268435510" symbol="initState"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="10" lineNum="16" parent="globals/State/Controller" pc="268435523" symbol="initialize"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="10" lineNum="17" parent="globals/State/Controller" pc="268435527" symbol="initialize"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="11" lineNum="20" parent="globals/State/Controller" pc="268435540" symbol="getState"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="11" lineNum="21" parent="globals/State/Controller" pc="268435544" symbol="getState"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="11" lineNum="22" parent="globals/State/Controller" pc="268435552" symbol="getState"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="11" lineNum="23" parent="globals/State/Controller" pc="268435552" symbol="getState"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="11" lineNum="24" parent="globals/State/Controller" pc="268435582" symbol="getState"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="11" lineNum="25" parent="globals/State/Controller" pc="268435604" symbol="getState"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="11" lineNum="26" parent="globals/State/Controller" pc="268435612" symbol="getState"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="11" lineNum="27" parent="globals/State/Controller" pc="268435625" symbol="getState"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="11" lineNum="28" parent="globals/State/Controller" pc="268435638" symbol="getState"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="11" lineNum="29" parent="globals/State/Controller" pc="268435651" symbol="getState"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="11" lineNum="30" parent="globals/State/Controller" pc="268435664" symbol="getState"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="11" lineNum="31" parent="globals/State/Controller" pc="268435677" symbol="getState"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="11" lineNum="32" parent="globals/State/Controller" pc="268435690" symbol="getState"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="11" lineNum="35" parent="globals/State/Controller" pc="268435717" symbol="getState"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="11" lineNum="37" parent="globals/State/Controller" pc="268435746" symbol="getState"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="12" lineNum="41" parent="globals/State/Controller" pc="268435751" symbol="setState"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="12" lineNum="42" parent="globals/State/Controller" pc="268435755" symbol="setState"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="13" lineNum="45" parent="globals/State/Controller" pc="268435787" symbol="getUrl"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="13" lineNum="46" parent="globals/State/Controller" pc="268435791" symbol="getUrl"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="14" lineNum="49" parent="globals/State/Controller" pc="268435818" symbol="getUnit"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="14" lineNum="50" parent="globals/State/Controller" pc="268435822" symbol="getUnit"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="15" lineNum="53" parent="globals/State/Controller" pc="268435849" symbol="validateAndUpdateUrl"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="15" lineNum="54" parent="globals/State/Controller" pc="268435853" symbol="validateAndUpdateUrl"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="15" lineNum="55" parent="globals/State/Controller" pc="268435866" symbol="validateAndUpdateUrl"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="15" lineNum="56" parent="globals/State/Controller" pc="268435890" symbol="validateAndUpdateUrl"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="15" lineNum="57" parent="globals/State/Controller" pc="268435920" symbol="validateAndUpdateUrl"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="15" lineNum="59" parent="globals/State/Controller" pc="268435933" symbol="validateAndUpdateUrl"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="15" lineNum="60" parent="globals/State/Controller" pc="268435978" symbol="validateAndUpdateUrl"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="15" lineNum="63" parent="globals/State/Controller" pc="268435991" symbol="validateAndUpdateUrl"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="15" lineNum="64" parent="globals/State/Controller" pc="268436012" symbol="validateAndUpdateUrl"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="15" lineNum="68" parent="globals/State/Controller" pc="268436050" symbol="validateAndUpdateUrl"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="15" lineNum="69" parent="globals/State/Controller" pc="268436091" symbol="validateAndUpdateUrl"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="15" lineNum="70" parent="globals/State/Controller" pc="268436110" symbol="validateAndUpdateUrl"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="15" lineNum="73" parent="globals/State/Controller" pc="268436148" symbol="validateAndUpdateUrl"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="15" lineNum="74" parent="globals/State/Controller" pc="268436156" symbol="validateAndUpdateUrl"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="15" lineNum="75" parent="globals/State/Controller" pc="268436182" symbol="validateAndUpdateUrl"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="16" lineNum="80" parent="globals/State/Controller" pc="268436217" symbol="registerBackgroundEvent"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="16" lineNum="81" parent="globals/State/Controller" pc="268436221" symbol="registerBackgroundEvent"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="16" lineNum="83" parent="globals/State/Controller" pc="268436234" symbol="registerBackgroundEvent"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="16" lineNum="84" parent="globals/State/Controller" pc="268436258" symbol="registerBackgroundEvent"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="16" lineNum="85" parent="globals/State/Controller" pc="268436279" symbol="registerBackgroundEvent"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="16" lineNum="88" parent="globals/State/Controller" pc="268436283" symbol="registerBackgroundEvent"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="16" lineNum="89" parent="globals/State/Controller" pc="268436312" symbol="registerBackgroundEvent"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="16" lineNum="90" parent="globals/State/Controller" pc="268436333" symbol="registerBackgroundEvent"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="16" lineNum="93" parent="globals/State/Controller" pc="268436337" symbol="registerBackgroundEvent"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="17" lineNum="97" parent="globals/State/Controller" pc="268436385" symbol="unregisterBackgroundEvent"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="17" lineNum="98" parent="globals/State/Controller" pc="268436389" symbol="unregisterBackgroundEvent"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="17" lineNum="99" parent="globals/State/Controller" pc="268436401" symbol="unregisterBackgroundEvent"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="18" lineNum="103" parent="globals/State/Controller" pc="268436421" symbol="setBackground"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="18" lineNum="104" parent="globals/State/Controller" pc="268436425" symbol="setBackground"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="19" lineNum="107" parent="globals/State/Controller" pc="268436436" symbol="onBackgroundData"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="19" lineNum="108" parent="globals/State/Controller" pc="268436440" symbol="onBackgroundData"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="19" lineNum="109" parent="globals/State/Controller" pc="268436447" symbol="onBackgroundData"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="20" lineNum="113" parent="globals/State/Controller" pc="268436465" symbol="makeNightscoutRequest"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="20" lineNum="114" parent="globals/State/Controller" pc="268436469" symbol="makeNightscoutRequest"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="20" lineNum="115" parent="globals/State/Controller" pc="268436482" symbol="makeNightscoutRequest"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="20" lineNum="116" parent="globals/State/Controller" pc="268436489" symbol="makeNightscoutRequest"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="20" lineNum="117" parent="globals/State/Controller" pc="268436496" symbol="makeNightscoutRequest"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="20" lineNum="118" parent="globals/State/Controller" pc="268436522" symbol="makeNightscoutRequest"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="20" lineNum="121" parent="globals/State/Controller" pc="268436543" symbol="makeNightscoutRequest"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="20" lineNum="122" parent="globals/State/Controller" pc="268436551" symbol="makeNightscoutRequest"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="20" lineNum="124" parent="globals/State/Controller" pc="268436569" symbol="makeNightscoutRequest"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="132" parent="globals/State/Controller" pc="268436596" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="133" parent="globals/State/Controller" pc="268436600" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="134" parent="globals/State/Controller" pc="268436608" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="135" parent="globals/State/Controller" pc="268436615" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="136" parent="globals/State/Controller" pc="268436622" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="137" parent="globals/State/Controller" pc="268436629" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="138" parent="globals/State/Controller" pc="268436636" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="139" parent="globals/State/Controller" pc="268436647" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="141" parent="globals/State/Controller" pc="268436651" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="142" parent="globals/State/Controller" pc="268436662" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="143" parent="globals/State/Controller" pc="268436686" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="146" parent="globals/State/Controller" pc="268436699" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="147" parent="globals/State/Controller" pc="268436710" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="149" parent="globals/State/Controller" pc="268436737" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="150" parent="globals/State/Controller" pc="268436824" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="154" parent="globals/State/Controller" pc="268436855" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="155" parent="globals/State/Controller" pc="268436942" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="159" parent="globals/State/Controller" pc="268436973" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="160" parent="globals/State/Controller" pc="268437020" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="164" parent="globals/State/Controller" pc="268437039" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="165" parent="globals/State/Controller" pc="268437126" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="169" parent="globals/State/Controller" pc="268437157" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="170" parent="globals/State/Controller" pc="268437204" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="173" parent="globals/State/Controller" pc="268437232" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="174" parent="globals/State/Controller" pc="268437269" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="175" parent="globals/State/Controller" pc="268437279" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="176" parent="globals/State/Controller" pc="268437289" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="177" parent="globals/State/Controller" pc="268437299" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="178" parent="globals/State/Controller" pc="268437309" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="179" parent="globals/State/Controller" pc="268437319" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="21" lineNum="182" parent="globals/State/Controller" pc="268437332" symbol="processResponse"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="22" lineNum="8" parent="globals/State/Controller" pc="268437671" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/State.mc" id="23" lineNum="7" parent="globals/State" pc="268437670" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceApp.mc" id="25" lineNum="11" parent="globals" pc="268437351" symbol="getApp"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceApp.mc" id="25" lineNum="12" parent="globals" pc="268437363" symbol="getApp"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceApp.mc" id="26" lineNum="18" parent="globals/BeautifulNightscoutWatchfaceApp" pc="268437380" symbol="initialize"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceApp.mc" id="26" lineNum="19" parent="globals/BeautifulNightscoutWatchfaceApp" pc="268437384" symbol="initialize"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceApp.mc" id="26" lineNum="20" parent="globals/BeautifulNightscoutWatchfaceApp" pc="268437402" symbol="initialize"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceApp.mc" id="27" lineNum="24" parent="globals/BeautifulNightscoutWatchfaceApp" pc="268437437" symbol="onStart"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceApp.mc" id="28" lineNum="28" parent="globals/BeautifulNightscoutWatchfaceApp" pc="268437442" symbol="onStop"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceApp.mc" id="28" lineNum="29" parent="globals/BeautifulNightscoutWatchfaceApp" pc="268437446" symbol="onStop"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceApp.mc" id="29" lineNum="33" parent="globals/BeautifulNightscoutWatchfaceApp" pc="268437465" symbol="getInitialView"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceApp.mc" id="29" lineNum="34" parent="globals/BeautifulNightscoutWatchfaceApp" pc="268437469" symbol="getInitialView"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceApp.mc" id="29" lineNum="35" parent="globals/BeautifulNightscoutWatchfaceApp" pc="268437487" symbol="getInitialView"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceApp.mc" id="29" lineNum="36" parent="globals/BeautifulNightscoutWatchfaceApp" pc="268437505" symbol="getInitialView"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceApp.mc" id="30" lineNum="40" parent="globals/BeautifulNightscoutWatchfaceApp" pc="268437543" symbol="onSettingsChanged"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceApp.mc" id="30" lineNum="41" parent="globals/BeautifulNightscoutWatchfaceApp" pc="268437547" symbol="onSettingsChanged"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceApp.mc" id="30" lineNum="42" parent="globals/BeautifulNightscoutWatchfaceApp" pc="268437565" symbol="onSettingsChanged"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceApp.mc" id="31" lineNum="46" parent="globals/BeautifulNightscoutWatchfaceApp" pc="268437582" symbol="getServiceDelegate"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceApp.mc" id="31" lineNum="47" parent="globals/BeautifulNightscoutWatchfaceApp" pc="268437586" symbol="getServiceDelegate"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceApp.mc" id="31" lineNum="48" parent="globals/BeautifulNightscoutWatchfaceApp" pc="268437606" symbol="getServiceDelegate"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceApp.mc" id="32" lineNum="53" parent="globals/BeautifulNightscoutWatchfaceApp" pc="268437644" symbol="onBackgroundData"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceApp.mc" id="32" lineNum="54" parent="globals/BeautifulNightscoutWatchfaceApp" pc="268437648" symbol="onBackgroundData"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceApp.mc" id="33" lineNum="16" parent="globals/BeautifulNightscoutWatchfaceApp" pc="268437672" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceApp.mc" id="33" lineNum="16" parent="globals/BeautifulNightscoutWatchfaceApp" pc="268437672" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="35" lineNum="11" parent="globals/BeautifulNightscoutWatchfaceView" pc="268437822" symbol="initialize"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="35" lineNum="12" parent="globals/BeautifulNightscoutWatchfaceView" pc="268437826" symbol="initialize"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="36" lineNum="16" parent="globals/BeautifulNightscoutWatchfaceView" pc="268437845" symbol="onLayout"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="36" lineNum="17" parent="globals/BeautifulNightscoutWatchfaceView" pc="268437849" symbol="onLayout"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="37" lineNum="23" parent="globals/BeautifulNightscoutWatchfaceView" pc="268437887" symbol="onShow"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="37" lineNum="24" parent="globals/BeautifulNightscoutWatchfaceView" pc="268437891" symbol="onShow"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="38" lineNum="28" parent="globals/BeautifulNightscoutWatchfaceView" pc="268437902" symbol="onUpdate"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="38" lineNum="30" parent="globals/BeautifulNightscoutWatchfaceView" pc="268437906" symbol="onUpdate"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="38" lineNum="31" parent="globals/BeautifulNightscoutWatchfaceView" pc="268437932" symbol="onUpdate"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="38" lineNum="33" parent="globals/BeautifulNightscoutWatchfaceView" pc="268437949" symbol="onUpdate"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="38" lineNum="34" parent="globals/BeautifulNightscoutWatchfaceView" pc="268437959" symbol="onUpdate"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="38" lineNum="35" parent="globals/BeautifulNightscoutWatchfaceView" pc="268437984" symbol="onUpdate"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="38" lineNum="36" parent="globals/BeautifulNightscoutWatchfaceView" pc="268437995" symbol="onUpdate"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="38" lineNum="39" parent="globals/BeautifulNightscoutWatchfaceView" pc="268438011" symbol="onUpdate"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="38" lineNum="40" parent="globals/BeautifulNightscoutWatchfaceView" pc="268438039" symbol="onUpdate"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="38" lineNum="41" parent="globals/BeautifulNightscoutWatchfaceView" pc="268438065" symbol="onUpdate"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="38" lineNum="45" parent="globals/BeautifulNightscoutWatchfaceView" pc="268438086" symbol="onUpdate"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="38" lineNum="51" parent="globals/BeautifulNightscoutWatchfaceView" pc="268438181" symbol="onUpdate"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="38" lineNum="52" parent="globals/BeautifulNightscoutWatchfaceView" pc="268438205" symbol="onUpdate"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="38" lineNum="53" parent="globals/BeautifulNightscoutWatchfaceView" pc="268438242" symbol="onUpdate"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="38" lineNum="55" parent="globals/BeautifulNightscoutWatchfaceView" pc="268438256" symbol="onUpdate"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="38" lineNum="56" parent="globals/BeautifulNightscoutWatchfaceView" pc="268438280" symbol="onUpdate"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="38" lineNum="57" parent="globals/BeautifulNightscoutWatchfaceView" pc="268438317" symbol="onUpdate"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="38" lineNum="58" parent="globals/BeautifulNightscoutWatchfaceView" pc="268438351" symbol="onUpdate"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="38" lineNum="59" parent="globals/BeautifulNightscoutWatchfaceView" pc="268438376" symbol="onUpdate"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="38" lineNum="60" parent="globals/BeautifulNightscoutWatchfaceView" pc="268438381" symbol="onUpdate"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="38" lineNum="65" parent="globals/BeautifulNightscoutWatchfaceView" pc="268438410" symbol="onUpdate"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="39" lineNum="71" parent="globals/BeautifulNightscoutWatchfaceView" pc="268438431" symbol="onHide"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="40" lineNum="75" parent="globals/BeautifulNightscoutWatchfaceView" pc="268438436" symbol="onExitSleep"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="40" lineNum="76" parent="globals/BeautifulNightscoutWatchfaceView" pc="268438440" symbol="onExitSleep"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="41" lineNum="80" parent="globals/BeautifulNightscoutWatchfaceView" pc="268438451" symbol="onEnterSleep"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="41" lineNum="81" parent="globals/BeautifulNightscoutWatchfaceView" pc="268438455" symbol="onEnterSleep"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="42" lineNum="7" parent="globals/BeautifulNightscoutWatchfaceView" pc="268438825" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/hans/git/BeautifulNightscoutWatchface/source/BeautifulNightscoutWatchfaceView.mc" id="42" lineNum="7" parent="globals/BeautifulNightscoutWatchfaceView" pc="268438825" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="44" lineNum="2" parent="globals/Rez/Drawables" pc="268438868" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="45" lineNum="6" parent="globals/Rez/Fonts" pc="268438870" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="46" lineNum="8" parent="globals/Rez/JsonData" pc="268438872" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="47" lineNum="17" parent="globals/Rez/Layouts" pc="268438466" symbol="WatchFace"/>
+        <entry filename="Rez" id="47" lineNum="19" parent="globals/Rez/Layouts" pc="268438478" symbol="WatchFace"/>
+        <entry filename="Rez" id="47" lineNum="20" parent="globals/Rez/Layouts" pc="268438502" symbol="WatchFace"/>
+        <entry filename="Rez" id="47" lineNum="21" parent="globals/Rez/Layouts" pc="268438635" symbol="WatchFace"/>
+        <entry filename="Rez" id="47" lineNum="23" parent="globals/Rez/Layouts" pc="268438768" symbol="WatchFace"/>
+        <entry filename="Rez" id="48" lineNum="10" parent="globals/Rez/Layouts" pc="268438871" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="49" lineNum="28" parent="globals/Rez/Menus" pc="268438869" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="50" lineNum="30" parent="globals/Rez/Strings" pc="268438873" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="51" lineNum="1" parent="globals/Rez" pc="268438844" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="51" lineNum="1" parent="globals/Rez" pc="268438844" symbol="&lt;init&gt;"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="20" method="true" symbol="getUnit"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="13" object="true" symbol="BeautifulNightscoutWatchfaceApp"/>
+        <entry id="5" module="true" symbol="globals/Rez/Menus"/>
+        <entry field="true" id="16" symbol="&lt;globals/State/Controller/&lt;&gt;STATE&gt;"/>
+        <entry field="true" id="41" symbol="ColorGreen"/>
+        <entry id="8389683" method="true" symbol="onSettingsChanged"/>
+        <entry field="true" id="33" symbol="ColorRed"/>
+        <entry id="10" object="true" symbol="RequestBackground"/>
+        <entry field="true" id="37" symbol="MilitaryFormatTitle"/>
+        <entry id="15" object="true" symbol="Controller"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="32" symbol="ColorBlue"/>
+        <entry field="true" id="42" symbol="AppName"/>
+        <entry id="23" method="true" symbol="unregisterBackgroundEvent"/>
+        <entry id="19" method="true" symbol="getUrl"/>
+        <entry id="9" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry field="true" id="27" symbol="isAwake"/>
+        <entry id="8390147" object="true" symbol="ServiceDelegate"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="26" method="true" symbol="processResponse"/>
+        <entry id="3" module="true" symbol="globals/Rez"/>
+        <entry id="8390148" method="true" symbol="onTemporalEvent"/>
+        <entry field="true" id="17" symbol="&lt;globals/State/Controller/&lt;&gt;inBackground&gt;"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="8390169" method="true" symbol="getServiceDelegate"/>
+        <entry id="29" module="true" symbol="Menus"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry field="true" id="36" symbol="ColorDarkGray"/>
+        <entry id="7" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="39" symbol="NightScoutUrl"/>
+        <entry id="21" method="true" symbol="validateAndUpdateUrl"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry field="true" id="40" symbol="ColorWhite"/>
+        <entry id="8" module="true" symbol="globals/Rez/JsonData"/>
+        <entry field="true" id="38" symbol="ColorBlack"/>
+        <entry id="4" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="8390170" method="true" symbol="onBackgroundData"/>
+        <entry id="8389903" method="true" symbol="setState"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="24" method="true" symbol="setBackground"/>
+        <entry id="25" method="true" symbol="makeNightscoutRequest"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="11" module="true" symbol="State"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry id="2" module="true" symbol="globals/State"/>
+        <entry field="true" id="30" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry field="true" id="35" symbol="BackgroundColorTitle"/>
+        <entry id="14" object="true" symbol="BeautifulNightscoutWatchfaceView"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8390146" module="true" object="true" symbol="Background"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="8389902" method="true" symbol="getState"/>
+        <entry id="22" method="true" symbol="registerBackgroundEvent"/>
+        <entry field="true" id="31" symbol="ColorLightGray"/>
+        <entry id="18" method="true" symbol="initState"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8389347" symbol="color"/>
+        <entry field="true" id="34" symbol="ForegroundColorTitle"/>
+        <entry id="28" module="true" symbol="Layouts"/>
+        <entry id="6" module="true" symbol="globals/Rez/Fonts"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry field="true" id="12" symbol="controller"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268437754" name="dictionary" stackId="1" startPc="268437714"/>
+        <entry arg="true" endPc="268437821" name="dc" stackId="1" startPc="268437756"/>
+        <entry endPc="268435749" name="_state" stackId="1" startPc="268435544"/>
+        <entry arg="true" endPc="268435786" name="data" stackId="1" startPc="268435751"/>
+        <entry endPc="268436212" name="lastChar" stackId="3" startPc="268435920"/>
+        <entry endPc="268436212" name="newUrl" stackId="2" startPc="268435920"/>
+        <entry endPc="268436215" name="currentUrl" stackId="1" startPc="268435853"/>
+        <entry endPc="268436383" name="url" stackId="1" startPc="268436221"/>
+        <entry arg="true" endPc="268436435" name="_inBackground" stackId="1" startPc="268436421"/>
+        <entry arg="true" endPc="268436464" name="data" stackId="1" startPc="268436436"/>
+        <entry endPc="268436594" name="options" stackId="5" startPc="268436469"/>
+        <entry endPc="268436594" name="url" stackId="3" startPc="268436469"/>
+        <entry endPc="268436594" name="responseCallback" stackId="6" startPc="268436469"/>
+        <entry endPc="268436594" name="parameters" stackId="4" startPc="268436469"/>
+        <entry endPc="268436594" name="baseUrl" stackId="1" startPc="268436469"/>
+        <entry endPc="268436594" name="apiPath" stackId="2" startPc="268436469"/>
+        <entry endPc="268437349" name="resCode" stackId="9" startPc="268436600"/>
+        <entry endPc="268437349" name="glucoseData" stackId="3" startPc="268436600"/>
+        <entry endPc="268437349" name="bg" stackId="4" startPc="268436600"/>
+        <entry endPc="268437349" name="mills" stackId="8" startPc="268436600"/>
+        <entry endPc="268437349" name="direction" stackId="6" startPc="268436600"/>
+        <entry endPc="268437349" name="bg_mgdl" stackId="5" startPc="268436600"/>
+        <entry endPc="268437349" name="delta" stackId="7" startPc="268436600"/>
+        <entry arg="true" endPc="268437350" name="responseCode" stackId="1" startPc="268436596"/>
+        <entry arg="true" endPc="268437350" name="data" stackId="2" startPc="268436596"/>
+        <entry arg="true" endPc="268437441" name="state" stackId="1" startPc="268437437"/>
+        <entry arg="true" endPc="268437464" name="state" stackId="1" startPc="268437442"/>
+        <entry arg="true" endPc="268437668" name="data" stackId="1" startPc="268437644"/>
+        <entry arg="true" endPc="268437886" name="dc" stackId="1" startPc="268437845"/>
+        <entry endPc="268438406" name="bgVal" stackId="8" startPc="268438351"/>
+        <entry endPc="268438429" name="timeLabel" stackId="6" startPc="268437906"/>
+        <entry endPc="268438429" name="hours" stackId="4" startPc="268437906"/>
+        <entry endPc="268438429" name="timeString" stackId="5" startPc="268437906"/>
+        <entry endPc="268438429" name="clockTime" stackId="3" startPc="268437906"/>
+        <entry endPc="268438429" name="bgLabel" stackId="7" startPc="268437906"/>
+        <entry endPc="268438429" name="timeFormat" stackId="2" startPc="268437906"/>
+        <entry arg="true" endPc="268438430" name="dc" stackId="1" startPc="268437902"/>
+        <entry endPc="268438804" name="rez_cmp_local_text_TimeLabel" stackId="4" startPc="268438478"/>
+        <entry endPc="268438804" name="rez_cmp_local_text_GlucoseLevel" stackId="3" startPc="268438478"/>
+        <entry endPc="268438804" name="rez_cmp_local_custom_drawable_61997828311319141697" stackId="2" startPc="268438478"/>
+        <entry arg="true" endPc="268438805" name="dc" stackId="1" startPc="268438466"/>
+    </localVars>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorLightGray"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlue"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorRed"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ForegroundColorTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundColorTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkGray"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MilitaryFormatTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlack"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NightScoutUrl"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorWhite"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorGreen"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="95" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/State" offset="198" parentId="globals" symbolId="State" type="module"/>
+        <dataEntry label="globals/State/Controller" offset="237" parentId="State" symbolId="Controller" type="class"/>
+        <dataEntry label="globals/BeautifulNightscoutWatchfaceApp" offset="396" parentId="globals" symbolId="BeautifulNightscoutWatchfaceApp" type="class"/>
+        <dataEntry label="globals/RequestBackground" offset="491" parentId="globals" symbolId="RequestBackground" type="class"/>
+        <dataEntry label="globals/Background" offset="1512" parentId="globals" symbolId="Background" type="class"/>
+        <dataEntry label="globals/BeautifulNightscoutWatchfaceView" offset="1567" parentId="globals" symbolId="BeautifulNightscoutWatchfaceView" type="class"/>
+        <dataEntry label="globals/Rez" offset="1670" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Rez/Drawables" offset="1749" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="1788" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="1819" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="1850" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="1889" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1920" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435482" name="initialize" parent="RequestBackground" startPc="268435456">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435505" name="onTemporalEvent" parent="RequestBackground" startPc="268435483">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437709" name="&lt;init&gt;" parent="RequestBackground" startPc="268437691">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437755" name="initialize" parent="Background" startPc="268437710">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437821" name="draw" parent="Background" startPc="268437756">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268438824" name="&lt;init&gt;" parent="Background" startPc="268438806">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435522" name="initState" parent="Controller" startPc="268435506">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435539" name="initialize" parent="Controller" startPc="268435523">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435750" name="getState" parent="Controller" startPc="268435540">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435786" name="setState" parent="Controller" startPc="268435751">
+            <param id="data"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435817" name="getUrl" parent="Controller" startPc="268435787">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435848" name="getUnit" parent="Controller" startPc="268435818">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436216" name="validateAndUpdateUrl" parent="Controller" startPc="268435849">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436384" name="registerBackgroundEvent" parent="Controller" startPc="268436217">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436420" name="unregisterBackgroundEvent" parent="Controller" startPc="268436385">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436435" name="setBackground" parent="Controller" startPc="268436421">
+            <param id="_inBackground"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436464" name="onBackgroundData" parent="Controller" startPc="268436436">
+            <param id="data"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436595" name="makeNightscoutRequest" parent="Controller" startPc="268436465">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437350" name="processResponse" parent="Controller" startPc="268436596">
+            <param id="responseCode"/>
+            <param id="data"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437671" name="&lt;init&gt;" parent="Controller" startPc="268437671">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437670" name="&lt;init&gt;" parent="State" startPc="268437670">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437379" name="getApp" startPc="268437351">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437436" name="initialize" parent="BeautifulNightscoutWatchfaceApp" startPc="268437380">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437441" name="onStart" parent="BeautifulNightscoutWatchfaceApp" startPc="268437437">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437464" name="onStop" parent="BeautifulNightscoutWatchfaceApp" startPc="268437442">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437542" name="getInitialView" parent="BeautifulNightscoutWatchfaceApp" startPc="268437465">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437581" name="onSettingsChanged" parent="BeautifulNightscoutWatchfaceApp" startPc="268437543">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437643" name="getServiceDelegate" parent="BeautifulNightscoutWatchfaceApp" startPc="268437582">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437668" name="onBackgroundData" parent="BeautifulNightscoutWatchfaceApp" startPc="268437644">
+            <param id="data"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437690" name="&lt;init&gt;" parent="BeautifulNightscoutWatchfaceApp" startPc="268437672">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437844" name="initialize" parent="BeautifulNightscoutWatchfaceView" startPc="268437822">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437886" name="onLayout" parent="BeautifulNightscoutWatchfaceView" startPc="268437845">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437901" name="onShow" parent="BeautifulNightscoutWatchfaceView" startPc="268437887">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438430" name="onUpdate" parent="BeautifulNightscoutWatchfaceView" startPc="268437902">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438435" name="onHide" parent="BeautifulNightscoutWatchfaceView" startPc="268438431">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438450" name="onExitSleep" parent="BeautifulNightscoutWatchfaceView" startPc="268438436">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438465" name="onEnterSleep" parent="BeautifulNightscoutWatchfaceView" startPc="268438451">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268438843" name="&lt;init&gt;" parent="BeautifulNightscoutWatchfaceView" startPc="268438825">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268438868" name="&lt;init&gt;" parent="Drawables" startPc="268438868">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268438870" name="&lt;init&gt;" parent="Fonts" startPc="268438870">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268438872" name="&lt;init&gt;" parent="JsonData" startPc="268438872">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438805" name="WatchFace" parent="Layouts" startPc="268438466">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268438871" name="&lt;init&gt;" parent="Layouts" startPc="268438871">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268438869" name="&lt;init&gt;" parent="Menus" startPc="268438869">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268438873" name="&lt;init&gt;" parent="Strings" startPc="268438873">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268438867" name="&lt;init&gt;" parent="Rez" startPc="268438844">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

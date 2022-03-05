@@ -1,0 +1,5 @@
+<layout id="WatchFace">
+    <drawable class="Background" />
+    <label id="GlucoseLevel" x="center" y="25%" font="Graphics.FONT_NUMBER_THAI_HOT" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_GREEN" />
+    <label id="TimeLabel" x="center" y="75%" font="Graphics.FONT_MEDIUM" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
+</layout>

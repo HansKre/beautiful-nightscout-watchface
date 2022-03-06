@@ -1,5 +1,113 @@
 <layout id="WatchFace">
     <drawable class="Background" />
-    <label id="GlucoseLevel" x="center" y="25%" font="Graphics.FONT_NUMBER_THAI_HOT" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_GREEN" />
-    <label id="TimeLabel" x="center" y="75%" font="Graphics.FONT_MEDIUM" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
+    <label id="GlucoseLevel" x="center" y="10%" font="Graphics.FONT_NUMBER_THAI_HOT" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_GREEN" />
+    <label id="TimeLabel" x="center" y="50%" font="Graphics.FONT_SYSTEM_NUMBER_MEDIUM" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
 </layout>
+
+<!--
+
+https://developer.garmin.com/connect-iq/api-docs/Toybox/Graphics.html
+
+-->
+
+<!-- font sizes 
+FONT_XTINY	0	
+API Level 1.0.0
+
+Extra tiny Connect IQ font
+
+FONT_TINY	1	
+API Level 1.0.0
+
+Tiny Connect IQ font
+
+FONT_SMALL	2	
+API Level 1.0.0
+
+Small Connect IQ font
+
+FONT_MEDIUM	3	
+API Level 1.0.0
+
+Medium Connect IQ font
+
+FONT_LARGE	4	
+API Level 1.0.0
+
+Large Connect IQ font
+
+FONT_NUMBER_MILD	5	
+API Level 1.0.0
+
+Normal size number only Connect IQ font
+
+FONT_NUMBER_MEDIUM	6	
+API Level 1.0.0
+
+Medium size number only Connect IQ font
+
+FONT_NUMBER_HOT	7	
+API Level 1.0.0
+
+Large size number only Connect IQ font
+
+FONT_NUMBER_THAI_HOT	8	
+API Level 1.0.0
+
+Huge size number only Connect IQ font
+
+FONT_SYSTEM_XTINY	9	
+API Level 1.3.0
+
+Extra tiny system font
+
+FONT_SYSTEM_TINY	10	
+API Level 1.3.0
+
+Tiny system font
+
+FONT_SYSTEM_SMALL	11	
+API Level 1.3.0
+
+Small system font
+
+FONT_SYSTEM_MEDIUM	12	
+API Level 1.3.0
+
+Medium system font
+
+FONT_SYSTEM_LARGE	13	
+API Level 1.3.0
+
+Large system font
+
+FONT_SYSTEM_NUMBER_MILD	14	
+API Level 1.3.0
+
+Normal size number only system font
+
+FONT_SYSTEM_NUMBER_MEDIUM	15	
+API Level 1.3.0
+
+Medium size number only system font
+
+FONT_SYSTEM_NUMBER_HOT	16	
+API Level 1.3.0
+
+Large size number only system font
+
+FONT_SYSTEM_NUMBER_THAI_HOT	17	
+API Level 1.3.0
+
+Huge size number only system font
+
+FONT_GLANCE	18	
+API Level 3.1.8
+
+Glance text font
+
+FONT_GLANCE_NUMBER	19	
+API Level 3.1.8
+
+Glance number only font
+-->

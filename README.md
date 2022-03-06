@@ -3,7 +3,7 @@
 ## Backlog
 
 ### v1
-- Add License
+- Rename bg to glucose
 - update seconds every second
 - implement robust property-getters:
   - https://github.com/douglasr/connectiq-samples/blob/master/snippets/get_properties.mc

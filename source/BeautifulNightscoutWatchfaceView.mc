@@ -3,7 +3,8 @@ import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
-using Toybox.ActivityMonitor;
+import Toybox.ActivityMonitor;
+import Toybox.Time.Gregorian;
 
 class BeautifulNightscoutWatchfaceView extends WatchUi.WatchFace {
 
@@ -54,7 +55,7 @@ class BeautifulNightscoutWatchfaceView extends WatchUi.WatchFace {
     }
 
     function drawTime(dc as Dc, timeString as String) as Void {
-        var timeLabel = View.findDrawableById("TimeLabel") as Text;
+        var timeLabel = View.findDrawableById("Time") as Text;
         timeLabel.setColor(getApp().getProperty("ForegroundColor") as Number);
         timeLabel.setText(timeString);
     }
@@ -88,11 +89,28 @@ class BeautifulNightscoutWatchfaceView extends WatchUi.WatchFace {
         stepsLabel.setText(steps.toString());
     }
 
+    function drawDate(dc as Dc) as Void {
+        var today = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
+        var dateStr = Lang.format(
+            "$1$.$2$.$3$",
+            [
+                today.day < 10 ? "0" + today.day : today.day,
+                today.month < 10 ? "0" + today.month : today.month,
+                today.year
+            ]
+        );
+
+        var dateLabel = View.findDrawableById("Date") as Text;
+        dateLabel.setColor(getApp().getProperty("ForegroundColor") as Number);
+        dateLabel.setText(dateStr);
+    }
+
     // Update the view
     function onUpdate(dc as Dc) as Void {
         drawSteps(dc);
         drawGlucose(dc);
         drawTime(dc, getTimeStr());
+        drawDate(dc);
         drawBattery(dc);
 
         // Call the parent onUpdate function to redraw the layout

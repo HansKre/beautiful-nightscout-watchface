@@ -4,7 +4,6 @@
 
 ### v1
 - Rename bg to glucose
-- update seconds every second
 - implement robust property-getters:
   - https://github.com/douglasr/connectiq-samples/blob/master/snippets/get_properties.mc
   - https://github.com/douglasr/connectiq-samples/blob/master/snippets/get_properties2.mc
@@ -16,7 +15,7 @@
 - steps
 - left of glucose: elapsed time since last update
 - right of glucose: trend
-- remove unneeded background configurations
+- remove unneeded settings / properties, e.g. configuration of background color
 
 ### v2
 - trend: +/- last 15mins, last 30mins

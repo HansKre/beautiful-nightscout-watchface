@@ -3,6 +3,7 @@ import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
+using Toybox.ActivityMonitor;
 
 class BeautifulNightscoutWatchfaceView extends WatchUi.WatchFace {
 
@@ -80,8 +81,16 @@ class BeautifulNightscoutWatchfaceView extends WatchUi.WatchFace {
         batteryLabel.setText(batStr);
     }
 
+    function drawSteps(dc as Dc) as Void {
+        var steps = ActivityMonitor.getInfo().steps;
+        var stepsLabel = View.findDrawableById("Steps");
+        stepsLabel.setColor(getApp().getProperty("ForegroundColor") as Number);
+        stepsLabel.setText(steps.toString());
+    }
+
     // Update the view
     function onUpdate(dc as Dc) as Void {
+        drawSteps(dc);
         drawGlucose(dc);
         drawTime(dc, getTimeStr());
         drawBattery(dc);

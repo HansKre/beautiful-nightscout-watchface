@@ -69,10 +69,22 @@ class BeautifulNightscoutWatchfaceView extends WatchUi.WatchFace {
         }
     }
 
+    function drawBattery(dc as Dc) as Void {
+        var batteryVal = System.getSystemStats().battery;
+        // round up to avoid 99.9999 for full battery
+        batteryVal = batteryVal + .5;
+        // format as 2-digits and suffixed with %
+        var batStr = Lang.format( "$1$%", [ batteryVal.format( "%2d" ) ] );
+        var batteryLabel = View.findDrawableById("Battery");
+        batteryLabel.setColor(getApp().getProperty("ForegroundColor") as Number);
+        batteryLabel.setText(batStr);
+    }
+
     // Update the view
     function onUpdate(dc as Dc) as Void {
         drawGlucose(dc);
         drawTime(dc, getTimeStr());
+        drawBattery(dc);
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);

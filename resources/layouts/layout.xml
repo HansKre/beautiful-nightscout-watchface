@@ -2,6 +2,7 @@
     <drawable class="Background" />
     <label id="GlucoseLevel" x="center" y="10%" font="Graphics.FONT_NUMBER_THAI_HOT" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_GREEN" />
     <label id="TimeLabel" x="center" y="50%" font="Graphics.FONT_SYSTEM_NUMBER_MEDIUM" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
+    <label id="Battery" x="center" y="85%" font="Graphics.FONT_MEDIUM" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
 </layout>
 
 <!--

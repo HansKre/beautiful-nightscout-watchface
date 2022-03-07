@@ -152,7 +152,8 @@ class BeautifulNightscoutWatchfaceView extends WatchUi.WatchFace {
         // start at left border of device screen
         var x = 0;
         // y-positioning from layout.xml
-        var y = dc.getHeight() * 0.75;
+        var timeOffset = 0.5;
+        var y = dc.getHeight() * timeOffset;
         // full width of device screen
         var width = dc.getWidth();
         // height of text

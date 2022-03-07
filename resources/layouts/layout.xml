@@ -1,10 +1,10 @@
 <layout id="WatchFace">
     <drawable class="Background" />
-    <label id="Steps" x="center" y="0%" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
-    <label id="GlucoseLevel" x="center" y="10%" font="Graphics.FONT_NUMBER_THAI_HOT" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_GREEN" />
-    <label id="Time" x="center" y="50%" font="Graphics.FONT_SYSTEM_NUMBER_MEDIUM" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
-    <label id="Date" x="center" y="75%" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
-    <label id="Battery" x="center" y="85%" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
+    <label id="Steps" x="center" y="0%" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    <label id="GlucoseLevel" x="center" y="15%" font="Graphics.FONT_NUMBER_THAI_HOT" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_GREEN" />
+    <label id="Time" x="center" y="50%" font="Graphics.FONT_SYSTEM_NUMBER_MEDIUM" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    <label id="Date" x="center" y="75%" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    <label id="Battery" x="center" y="85%" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
 </layout>
 
 <!--

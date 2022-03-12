@@ -1,5 +1,10 @@
 # Beautiful Nightscout Watchface for Garmin Watches
 
+## Deployment
+
+- go to app.garmin.com
+- upload new version to publish
+
 ## Backlog
 
 ### v1
@@ -11,8 +16,9 @@
 - color for bg
 - sundown / sunrise:
   - https://github.com/douglasr/connectiq-samples/blob/master/libraries/solar-events/SunCalc.mc
-- date
-- steps
+- steps icon
+- battery icon
+- calories field + icon
 - left of glucose: elapsed time since last update
 - right of glucose: trend
 - remove unneeded settings / properties, e.g. configuration of background color
@@ -20,5 +26,4 @@
 ### v2
 - trend: +/- last 15mins, last 30mins
 - battery
-- vibrate on alarms
-- make alle settings configureable
+- make all settings configurable

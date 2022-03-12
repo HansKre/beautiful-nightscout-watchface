@@ -90,13 +90,13 @@ class BeautifulNightscoutWatchfaceView extends WatchUi.WatchFace {
     }
 
     function drawDate(dc as Dc) as Void {
-        var today = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
+        var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
         var dateStr = Lang.format(
-            "$1$.$2$.$3$",
+            "$1$ $2$. $3$",
             [
+                today.day_of_week.toUpper(),
                 today.day < 10 ? "0" + today.day : today.day,
-                today.month < 10 ? "0" + today.month : today.month,
-                today.year
+                today.month.toUpper()
             ]
         );
 

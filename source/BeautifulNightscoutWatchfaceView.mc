@@ -16,7 +16,7 @@ class BeautifulNightscoutWatchfaceView extends WatchUi.WatchFace {
 
     // Load your resources here
     function onLayout(dc as Dc) as Void {
-        setLayout(Rez.Layouts.WatchFace(dc));
+        setLayout(Rez.Layouts.MyWatchFace(dc));
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -105,16 +105,69 @@ class BeautifulNightscoutWatchfaceView extends WatchUi.WatchFace {
         dateLabel.setText(dateStr);
     }
 
+    function drawLine(dc, lineColor) {
+        var textDimensions = dc.getTextDimensions(getTimeStr(), Graphics.FONT_SYSTEM_NUMBER_MEDIUM) as Lang.Array<Lang.Number>;
+        var width = textDimensions[0];
+        var height = textDimensions[1];
+
+        // x
+        var freeSpace = dc.getWidth() - width;
+        var x = freeSpace / 2;
+
+        // y
+        var timeOffset = 0.5;
+        var y = dc.getHeight() * timeOffset;
+
+        // draw
+        var background = getApp().getProperty("BackgroundColor") as Number;
+        dc.setColor(lineColor, background);
+        dc.fillRectangle(x, y, width, 5);
+    }
+
+    // for debugging
+    function drawClippingArea(dc) {
+        var textDimensions = dc.getTextDimensions(getTimeStr(), Graphics.FONT_SYSTEM_NUMBER_MEDIUM) as Lang.Array<Lang.Number>;
+        var width = textDimensions[0];
+        var height = textDimensions[1];
+
+        // x
+        var freeSpace = dc.getWidth() - width;
+        var x = freeSpace / 2;
+
+        // y
+        var timeOffset = 0.5;
+        var y = dc.getHeight() * timeOffset;
+
+        var lineColor = Graphics.COLOR_BLUE;
+        var background = getApp().getProperty("BackgroundColor") as Number;
+        dc.setColor(lineColor, background);
+        var WIDTH_REDUCTION = 1;
+        var HEIGHT_REDUCTION = 0.6;
+        var SHIFT_RIGHT = 2;
+        var SHIFT_DOWN = 15;
+        dc.drawRectangle(
+            x + SHIFT_RIGHT,
+            y + SHIFT_DOWN,
+            width * WIDTH_REDUCTION,
+            height * HEIGHT_REDUCTION
+          );
+    }
+
     // Update the view
     function onUpdate(dc as Dc) as Void {
+        // Call the parent onUpdate function to redraw the layout
+        View.onUpdate(dc);
+
+        // draw
         drawSteps(dc);
         drawGlucose(dc);
         drawTime(dc, getTimeStr());
         drawDate(dc);
         drawBattery(dc);
 
-        // Call the parent onUpdate function to redraw the layout
-        View.onUpdate(dc);
+        drawLine(dc, Graphics.COLOR_BLUE);
+
+        //drawClippingArea(dc);
     }
 
     // Called when this View is removed from the screen. Save the
@@ -146,30 +199,46 @@ class BeautifulNightscoutWatchfaceView extends WatchUi.WatchFace {
     //! https://developer.garmin.com/connect-iq/connect-iq-faq/how-do-i-get-my-watch-face-to-update-every-second/
     //! to test in simulator: Settings > Low Power Mode
     function onPartialUpdate(dc) {
-        var timeString = getTimeStr();
-        var textDimensions = dc.getTextDimensions(timeString, Graphics.FONT_MEDIUM) as Lang.Array<Lang.Number>;
+        View.onUpdate(dc);
 
-        // start at left border of device screen
-        var x = 0;
-        // y-positioning from layout.xml
+        var timeString = getTimeStr();
+
+        var textDimensions = dc.getTextDimensions(timeString, Graphics.FONT_SYSTEM_NUMBER_MEDIUM) as Lang.Array<Lang.Number>;
+        var width = textDimensions[0];
+        var height = textDimensions[1];
+
+        // x
+        var freeSpace = dc.getWidth() - width;
+        var x = freeSpace / 2;
+
+        // y
         var timeOffset = 0.5;
         var y = dc.getHeight() * timeOffset;
-        // full width of device screen
-        var width = dc.getWidth();
-        // height of text
-        var height = textDimensions[1];
+
+        var lineColor = Graphics.COLOR_BLUE;
+        var background = getApp().getProperty("BackgroundColor") as Number;
+        dc.setColor(lineColor, background);
+        var WIDTH_REDUCTION = 1;
+        var HEIGHT_REDUCTION = 0.6;
+        var SHIFT_RIGHT = 2;
+        var SHIFT_DOWN = 15;
+        /*dc.drawRectangle(
+            x + SHIFT_RIGHT,
+            y + SHIFT_DOWN,
+            width * WIDTH_REDUCTION,
+            height * HEIGHT_REDUCTION
+         );*/
 
         drawTime(dc, timeString);
 
         // set the area to update partially
         dc.setClip(
-            x,
-            y,
-            width,
-            height
+            x + SHIFT_RIGHT,
+            y + SHIFT_DOWN,
+            width * WIDTH_REDUCTION,
+            height * HEIGHT_REDUCTION
         );
 
-        View.onUpdate(dc);
     }
 
 }

@@ -1,4 +1,4 @@
-<layout id="WatchFace">
+<layout id="MyWatchFace">
     <drawable class="Background" />
     <label id="Steps" x="center" y="0%" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
     <label id="GlucoseLevel" x="center" y="15%" font="Graphics.FONT_NUMBER_THAI_HOT" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_GREEN" />

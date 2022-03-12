@@ -2,12 +2,13 @@
 
 ## Deployment
 
-- go to app.garmin.com
+- go to apps.garmin.com
 - upload new version to publish
 
 ## Backlog
 
 ### v1
+- read default color, positions, font-sizes from settings.xml (Monkey C-XML-Parser?)
 - Rename bg to glucose
 - implement robust property-getters:
   - https://github.com/douglasr/connectiq-samples/blob/master/snippets/get_properties.mc

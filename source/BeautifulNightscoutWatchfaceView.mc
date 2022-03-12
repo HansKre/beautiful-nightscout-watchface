@@ -9,6 +9,7 @@ import Toybox.Time.Gregorian;
 class BeautifulNightscoutWatchfaceView extends WatchUi.WatchFace {
 
     var isAwake;
+    var isClippingSet = false;
 
     function initialize() {
         WatchFace.initialize();
@@ -165,7 +166,7 @@ class BeautifulNightscoutWatchfaceView extends WatchUi.WatchFace {
         drawDate(dc);
         drawBattery(dc);
 
-        drawLine(dc, Graphics.COLOR_BLUE);
+        //drawLine(dc, Graphics.COLOR_BLUE);
 
         //drawClippingArea(dc);
     }
@@ -203,41 +204,47 @@ class BeautifulNightscoutWatchfaceView extends WatchUi.WatchFace {
 
         var timeString = getTimeStr();
 
-        var textDimensions = dc.getTextDimensions(timeString, Graphics.FONT_SYSTEM_NUMBER_MEDIUM) as Lang.Array<Lang.Number>;
-        var width = textDimensions[0];
-        var height = textDimensions[1];
+        //if (!isClippingSet) {
+            var textDimensions = dc.getTextDimensions(timeString, Graphics.FONT_SYSTEM_NUMBER_MEDIUM) as Lang.Array<Lang.Number>;
+            var width = textDimensions[0];
+            var height = textDimensions[1];
 
-        // x
-        var freeSpace = dc.getWidth() - width;
-        var x = freeSpace / 2;
+            // x
+            var freeSpace = dc.getWidth() - width;
+            var x = freeSpace / 2;
 
-        // y
-        var timeOffset = 0.5;
-        var y = dc.getHeight() * timeOffset;
+            // y
+            var timeOffset = 0.5;
+            var y = dc.getHeight() * timeOffset;
 
-        var lineColor = Graphics.COLOR_BLUE;
-        var background = getApp().getProperty("BackgroundColor") as Number;
-        dc.setColor(lineColor, background);
-        var WIDTH_REDUCTION = 1;
-        var HEIGHT_REDUCTION = 0.6;
-        var SHIFT_RIGHT = 2;
-        var SHIFT_DOWN = 15;
-        /*dc.drawRectangle(
-            x + SHIFT_RIGHT,
-            y + SHIFT_DOWN,
-            width * WIDTH_REDUCTION,
-            height * HEIGHT_REDUCTION
-         );*/
+            var lineColor = Graphics.COLOR_BLUE;
+            var background = getApp().getProperty("BackgroundColor") as Number;
+            dc.setColor(lineColor, background);
+            var WIDTH_REDUCTION = 1;
+            var HEIGHT_REDUCTION = 0.6;
+            var SHIFT_RIGHT = 2;
+            var SHIFT_DOWN = 15;
+            // for debugging
+            dc.drawRectangle(
+                x + SHIFT_RIGHT,
+                y + SHIFT_DOWN,
+                width * WIDTH_REDUCTION,
+                height * HEIGHT_REDUCTION
+             );
 
+            // set the clipping area to update partially
+            dc.setClip(
+                x + SHIFT_RIGHT,
+                y + SHIFT_DOWN,
+                width * WIDTH_REDUCTION,
+                height * HEIGHT_REDUCTION
+            );
+
+            isClippingSet = true;
+        //}
+
+        drawLine(dc, Graphics.COLOR_DK_BLUE);
         drawTime(dc, timeString);
-
-        // set the area to update partially
-        dc.setClip(
-            x + SHIFT_RIGHT,
-            y + SHIFT_DOWN,
-            width * WIDTH_REDUCTION,
-            height * HEIGHT_REDUCTION
-        );
 
     }
 
